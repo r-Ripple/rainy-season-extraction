@@ -16,13 +16,10 @@ ripple.w@qq.com
 雨季提取的结果统一为geotiff文件，四层分别是雨季开始 雨季结束 雨季长度 雨季长度内的降水量
 ### 累积阈值法
 对应代码为 cumsum_test.py
-在设定子文件夹时，必须保证最底层文件夹的上层文件夹存在
 
-如："./new_data_files/cum_result"中，必须保证对应的"new_data_files"文件夹已被创建
 ### 异常累积法
 对应代码为 AA_method.py
 
-文件夹要求同上
 ### 多尺度滑动t检验法
 多尺度滑动t检验法分为两个模块
 * 功能模块 对应代码为 func_repairing.py 封装了基本方法的实现
